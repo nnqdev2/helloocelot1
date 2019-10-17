@@ -1,0 +1,79 @@
+{
+  "ReRoutes": [
+    //{
+    //  "DownstreamPathTemplate": "/msa_dev/weatherforecast",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/ocelot/msa/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/msb_dev/weatherforecast",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/ocelot/msb/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/msc_dev/weatherforecast",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/ocelot/msc/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    {
+      "DownstreamPathTemplate": "/olprrapi_dev/olprr/sitetype/",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "deqwebdev",
+          "Port": 80
+        }
+      ],
+      "UpstreamPathTemplate": "/ocelot/sitetype/",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    //{
+    //  "DownstreamPathTemplate": "/hol_dev/",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/ocelot/hol_dev/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/aq/aqpermitsonline/SearchFilter.asp",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 333
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/ocelot/aqpermitsonline/SearchFilter/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //}
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:23803"
+  }
+}
