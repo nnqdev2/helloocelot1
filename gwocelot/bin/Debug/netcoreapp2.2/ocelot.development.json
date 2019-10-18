@@ -5,73 +5,73 @@
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
-          "Host": "deqwebdev",
+          "Host": "http://deqwebdev",
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "/gwocelot_dev/msa/",
-      "UpstreamHttpMethod": [ "Get" ]
-    },
-    {
-      "DownstreamPathTemplate": "/msb_dev/weatherforecast",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "deqwebdev",
-          "Port": 80
-        }
-      ],
-      "UpstreamPathTemplate": "/gwocelot_dev/msb/",
-      "UpstreamHttpMethod": [ "Get" ]
-    },
-    {
-      "DownstreamPathTemplate": "/msc_dev/weatherforecast",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "deqwebdev",
-          "Port": 80
-        }
-      ],
-      "UpstreamPathTemplate": "/gwocelot_dev/msc/",
-      "UpstreamHttpMethod": [ "Get" ]
-    },
-    {
-      "DownstreamPathTemplate": "/olprrapi_dev/olprr/sitetype/",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "deqwebdev",
-          "Port": 80
-        }
-      ],
-      "UpstreamPathTemplate": "/gwocelot_dev/sitetype/",
-      "UpstreamHttpMethod": [ "Get" ]
-    },
-    {
-      "DownstreamPathTemplate": "/hol_dev/",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "deqwebdev",
-          "Port": 80
-        }
-      ],
-      "UpstreamPathTemplate": "/gwocelot_dev/hol_dev/",
-      "UpstreamHttpMethod": [ "Get" ]
-    },
-    {
-      "DownstreamPathTemplate": "/aq/aqpermitsonline/SearchFilter.asp",
-      "DownstreamScheme": "http",
-      "DownstreamHostAndPorts": [
-        {
-          "Host": "deqwebdev",
-          "Port": 333
-        }
-      ],
-      "UpstreamPathTemplate": "/gwocelot_dev/aqpermitsonline/SearchFilter/",
+      "UpstreamPathTemplate": "/gwocelot_dev/msa",
       "UpstreamHttpMethod": [ "Get" ]
     }
+    //{
+    //  "DownstreamPathTemplate": "/msb_dev/weatherforecast",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/msb/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/msc_dev/weatherforecast",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/msc/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/olprrapi_dev/olprr/sitetype/",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/sitetype/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/hol_dev/",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 80
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/hol_dev/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //},
+    //{
+    //  "DownstreamPathTemplate": "/aq/aqpermitsonline/SearchFilter.asp",
+    //  "DownstreamScheme": "http",
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "deqwebdev",
+    //      "Port": 333
+    //    }
+    //  ],
+    //  "UpstreamPathTemplate": "/aqpermitsonline/SearchFilter/",
+    //  "UpstreamHttpMethod": [ "Get" ]
+    //}
   ],
   "GlobalConfiguration": {
     "BaseUrl": "http://deqwebdev"

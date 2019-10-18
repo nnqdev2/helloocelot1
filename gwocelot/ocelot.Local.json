@@ -1,17 +1,17 @@
 {
   "ReRoutes": [
-    {
+    //{
     //  "DownstreamPathTemplate": "/msa_dev/weatherforecast",
     //  "DownstreamScheme": "http",
     //  "DownstreamHostAndPorts": [
     //    {
-    //      "Host": "http://deqwebdev",
+    //      "Host": "deqwebdev",
     //      "Port": 80
     //    }
     //  ],
-    //  "UpstreamPathTemplate": "/gwocelot_dev/msa",
+    //  "UpstreamPathTemplate": "/ocelot/msa/",
     //  "UpstreamHttpMethod": [ "Get" ]
-    //}
+    //},
     //{
     //  "DownstreamPathTemplate": "/msb_dev/weatherforecast",
     //  "DownstreamScheme": "http",
@@ -21,7 +21,7 @@
     //      "Port": 80
     //    }
     //  ],
-    //  "UpstreamPathTemplate": "/msb/",
+    //  "UpstreamPathTemplate": "/ocelot/msb/",
     //  "UpstreamHttpMethod": [ "Get" ]
     //},
     //{
@@ -33,7 +33,7 @@
     //      "Port": 80
     //    }
     //  ],
-    //  "UpstreamPathTemplate": "/msc/",
+    //  "UpstreamPathTemplate": "/ocelot/msc/",
     //  "UpstreamHttpMethod": [ "Get" ]
     //},
     {
@@ -45,9 +45,9 @@
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "/gwocelot_dev/sitetype/",
+      "UpstreamPathTemplate": "/sitetype/",
       "UpstreamHttpMethod": [ "Get" ]
-    },
+    }
     //{
     //  "DownstreamPathTemplate": "/hol_dev/",
     //  "DownstreamScheme": "http",
@@ -57,7 +57,7 @@
     //      "Port": 80
     //    }
     //  ],
-    //  "UpstreamPathTemplate": "/hol_dev/",
+    //  "UpstreamPathTemplate": "/ocelot/hol_dev/",
     //  "UpstreamHttpMethod": [ "Get" ]
     //},
     //{
@@ -69,11 +69,11 @@
     //      "Port": 333
     //    }
     //  ],
-    //  "UpstreamPathTemplate": "/aqpermitsonline/SearchFilter/",
+    //  "UpstreamPathTemplate": "/ocelot/aqpermitsonline/SearchFilter/",
     //  "UpstreamHttpMethod": [ "Get" ]
     //}
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://deqwebdev"
+    "BaseUrl": "http://localhost:23803"
   }
 }
