@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
+using msone.Extensions;
 
 namespace msone.Controllers
 {
@@ -27,6 +27,8 @@ namespace msone.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             _logger.LogInformation("******In Controller Get method ");
+            var x = "test";
+            var z = x.WordCountNga();
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

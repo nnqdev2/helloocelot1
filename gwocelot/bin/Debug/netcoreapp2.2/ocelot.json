@@ -47,7 +47,7 @@
       ],
       "UpstreamPathTemplate": "/ocelot/sitetype/",
       "UpstreamHttpMethod": [ "Get" ]
-    },
+    }
     //{
     //  "DownstreamPathTemplate": "/hol_dev/",
     //  "DownstreamScheme": "http",
