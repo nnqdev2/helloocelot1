@@ -17,32 +17,32 @@ namespace gwocelot
         {
             return WebHost.CreateDefaultBuilder(args)
 
-                          .ConfigureAppConfiguration((hostingContext, config) =>
-                          {
-                              config
-                              .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
-                              //.AddJsonFile("appsettings.json", true, true)
-                              .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
-                              //.AddJsonFile("ocelot.json")
-                              .AddJsonFile($"ocelot.{hostingContext.HostingEnvironment.EnvironmentName}.json")
-                              .AddEnvironmentVariables();
+                .ConfigureAppConfiguration((hostingContext, config) =>
+                {
+                    config
+                    .SetBasePath(hostingContext.HostingEnvironment.ContentRootPath)
+                    //.AddJsonFile("appsettings.json", true, true)
+                    .AddJsonFile($"appsettings.{hostingContext.HostingEnvironment.EnvironmentName}.json", true, true)
+                    //.AddJsonFile("ocelot.json")
+                    .AddJsonFile($"ocelot.{hostingContext.HostingEnvironment.EnvironmentName}.json")
+                    .AddEnvironmentVariables();
 
-                          })
-                          .UseStartup<Startup>()
-                          .ConfigureServices(s =>
-                          {
-                              s.AddOcelot();
-                          })
-                          .Configure(app =>
-                          {
-                              app.UseOcelot().Wait();
-                          })
-                          .ConfigureLogging((hostingContext, logging) =>
-                          {
-                              //add your logging
-                          })
-                          .UseIISIntegration()
-                          .Build();
+                })
+                .UseStartup<Startup>()
+                .ConfigureServices(s =>
+                {
+                    s.AddOcelot();
+                })
+                .Configure(app =>
+                {
+                    app.UseOcelot().Wait();
+                })
+                .ConfigureLogging((hostingContext, logging) =>
+                {
+                    //add your logging
+                })
+                .UseIISIntegration()
+                .Build();
         }
 
 

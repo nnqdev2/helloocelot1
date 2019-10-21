@@ -13,7 +13,7 @@ namespace mstwo.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-            "msthree_Freezing", "msthree_Bracing", "msthree_Chilly", "msthree_Cool", "msthree_Mild", "msthree_Warm", "msthree_Balmy", "msthree_Hot", "msthree_Sweltering", "msthree_Scorching"
+            "mstwo_Freezing", "mstwo_Bracing", "mstwo_Chilly", "mstwo_Cool", "mstwo_Mild", "mstwo_Warm", "mstwo_Balmy", "mstwo_Hot", "mstwo_Sweltering", "mstwo_Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;

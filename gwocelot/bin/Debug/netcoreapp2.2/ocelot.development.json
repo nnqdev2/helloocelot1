@@ -9,7 +9,7 @@
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "msa",
+      "UpstreamPathTemplate": "/msa",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -21,7 +21,7 @@
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "msb",
+      "UpstreamPathTemplate": "/msb",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -33,7 +33,7 @@
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "msc",
+      "UpstreamPathTemplate": "/msc",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -45,7 +45,7 @@
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "sitetype",
+      "UpstreamPathTemplate": "/sitetype",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -57,7 +57,7 @@
           "Port": 80
         }
       ],
-      "UpstreamPathTemplate": "hol_dev",
+      "UpstreamPathTemplate": "/hol_dev",
       "UpstreamHttpMethod": [ "Get" ]
     },
     {
@@ -69,11 +69,11 @@
           "Port": 333
         }
       ],
-      "UpstreamPathTemplate": "traacs",
+      "UpstreamPathTemplate": "/traacs",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
   "GlobalConfiguration": {
-    "BaseUrl": "http://deqwebdev/gwocelot_dev/"
+    "BaseUrl": "http://deqwebdev/gwocelot_dev"
   }
 }
