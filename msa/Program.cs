@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
@@ -19,7 +20,7 @@ namespace msa
                             : (envName == "Staging" ? "D:/Logs/msA/msa.staging.log" 
                             : (envName == "Development" ? "D:/Logs/msA/msa.devl.log" 
                             : "S:/Logs/msa/msa.local.log"));
-            Log.Logger = new LoggerConfiguration()
+            var loggerConfiguration = new LoggerConfiguration()
                 .Enrich.FromLogContext()
                 .Enrich.WithProperty("ApplicationName", typeof(Program).Assembly.GetName().Name)
                 .Enrich.WithProperty("Environment", Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"))
@@ -27,7 +28,8 @@ namespace msa
                 .Enrich.WithMachineName()
                 .WriteTo.File(fileName, rollingInterval: RollingInterval.Day, retainedFileCountLimit: 3
                         , outputTemplate: "{Timestamp:o} [{Level:u3}] ({Environment}/{ApplicationName}/{MachineName}/{EnvironmentUserName}) ({SourceContext} {MemberName}) {Message:lj}{NewLine}{Exception}")
-                .CreateLogger();
+                ;
+            //.CreateLogger();
 
             //Log.Logger = new LoggerConfiguration()
             //    .Enrich.FromLogContext()
@@ -39,12 +41,12 @@ namespace msa
             //    .WriteTo.File(fileName, rollingInterval: RollingInterval.Day, retainedFileCountLimit: 3
             //            , outputTemplate: "{Timestamp:o} [{Level:u3}] ({Environment}/{ApplicationName}/{MachineName}/{EnvironmentUserName}) ({SourceContext} {MemberName}) {Message:lj}{NewLine}{Exception}")
             //    .CreateLogger();
-            //#if DEBUG
-            //            loggerConfiguration.Enrich.WithProperty("DebuggerAttached", Debugger.IsAttached);
-            //#endif
+#if DEBUG
+            loggerConfiguration.Enrich.WithProperty("DebuggerAttached", Debugger.IsAttached);
+#endif
 
             // When using ".UseSerilog()" it will use "Log.Logger".
-            // Log.Logger = loggerConfiguration.CreateLogger();
+            Log.Logger = loggerConfiguration.CreateLogger();
 
             try
             {
