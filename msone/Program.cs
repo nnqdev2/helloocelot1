@@ -19,10 +19,10 @@ namespace msone
 
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(configuration)
-                .Enrich.FromLogContext()
+                //.Enrich.FromLogContext()
                 .Enrich.WithProperty("ApplicationName", typeof(Program).Assembly.GetName().Name)
                 .Enrich.WithProperty("Environment", Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"))
-                .Enrich.WithEnvironmentUserName()
+                //.Enrich.WithEnvironmentUserName()
                 .CreateLogger();
 
 //#if DEBUG

@@ -26,6 +26,7 @@ namespace msa.Controllers
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            _logger.LogInformation("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWeatherForecastController IEnumerable<WeatherForecast> Get() was here ...");
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {

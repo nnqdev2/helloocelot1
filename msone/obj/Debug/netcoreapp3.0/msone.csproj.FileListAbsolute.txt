@@ -17,6 +17,7 @@ S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Microsoft.Exten
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.AspNetCore.dll
+S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Enrichers.Environment.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Extensions.Hosting.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Extensions.Logging.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Formatting.Compact.dll
@@ -24,14 +25,13 @@ S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Setting
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Sinks.Console.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Sinks.Debug.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Sinks.File.dll
+S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.csprojAssemblyReference.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\staticwebassets\msone.StaticWebAssets.Manifest.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\staticwebassets\msone.StaticWebAssets.xml
+S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.MvcApplicationPartsAssemblyInfo.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.AssemblyInfoInputs.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.AssemblyInfo.cs
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.RazorTargetAssemblyInfo.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.csproj.CopyComplete
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.pdb
-S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.csprojAssemblyReference.cache
-S:\ocelot\ocelotdemo3\helloocelot1\msone\bin\Debug\netcoreapp3.0\Serilog.Enrichers.Environment.dll
-S:\ocelot\ocelotdemo3\helloocelot1\msone\obj\Debug\netcoreapp3.0\msone.MvcApplicationPartsAssemblyInfo.cache
