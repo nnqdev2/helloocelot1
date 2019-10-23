@@ -8,6 +8,8 @@
 - [Technologies](#technologies)
 - [Scanned Permit Files Processing](#scanfilesprocessing)
 
-
-
 ## Project Summary
+Get a summary from the product owners
+
+## Team Member
+[Nga Quan](mailto:quan.nga@deq.or.state.us?subject=AQPermitOnline)
