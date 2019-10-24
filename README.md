@@ -1,17 +1,21 @@
-<h3 align="center">AQ Permit Online Technical Documentation</h3>
-
 # AQ Permits Online Technical Documentation
 
 AQ Permits Online processing consists of 
   1. Move permit files from staging to permanent folder and update the files info in the database.
-  2. Add permit file download links to [Permit Detail Page.](https://www.deq.state.or.us/msd/profilerReports/traacs.asp?id=01-0005-BS-01)
-  3. New [Search Filter and Results.](https://www.deq.state.or.us/aq/aqpermitsonline/SearchFilter.asp) page
+      * SSIS package and Stored Procedures
+  2. Add file download links to [Permit Detail Page.](https://www.deq.state.or.us/msd/profilerReports/traacs.asp?id=01-0005-BS-01)
+      * Classic ASP and Stored Procedure
+  3. New [Search Filter](https://www.deq.state.or.us/aq/aqpermitsonline/SearchFilter.asp) and [Search Results](https://www.deq.state.or.us/aq/aqpermitsonline/SearchResult.asp?sourcenumber=&sourcename=&streetaddress=&city=&zip=&county=&deqregion=&permitnumber=&permittype=&documenttype=&yearissued=&currentdocumentsonly=1)  pages.
+      * Classic ASP and Stored Procedure
+      
 ## Getting Started
 
-## Table of contents
+Update Classic ASP pages:
+[Permit Detail Page](http://deqwebdev:333/msd/profilerReports/TRAACs.asp?id=01-0005-BS-01), copy the TRAACs.asp file to \\deqwebdev\DEQOnlineDEV\msd\ProfilerReports\TRAACs.asp
+[Search Filter Page](http://deqwebdev:333/aq/aqpermitsonline/SearchFilter.asp), copy the SearchFilter.asp file to \\deqwebdev\DEQOnlineDEV\aq\aqpermitsonline.asp
+[Search Result Page](http://deqwebdev:333/aq/aqpermitsonline/SearchResult.asp?sourcenumber=&sourcename=&streetaddress=&city=&zip=&county=&deqregion=&permitnumber=&permittype=&documenttype=&yearissued=&currentdocumentsonly=1), copy the SearchResults.asp file to \\deqwebdev\DEQOnlineDEV\aq\aqpermitsonline\SearchResult.asp
+### Table of contents
 
-- [Project Summary](#projectsummary)
-- [Team Members](#teammembers)
 - [Application URLs](#applicationurls)
 - [Technologies](#technologies)
 - [Scanned Permit Files Processing](#scanfilesprocessing)
