@@ -422,3 +422,6 @@ msbuild.wrn
 
 *.dtbcache
 *.cache
+
+**/Debug
+**/obj

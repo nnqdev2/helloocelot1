@@ -12,6 +12,7 @@ S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\bin\Debug\netcoreapp2.2\gwocelot.run
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\bin\Debug\netcoreapp2.2\gwocelot.runtimeconfig.dev.json
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\bin\Debug\netcoreapp2.2\gwocelot.dll
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\bin\Debug\netcoreapp2.2\gwocelot.pdb
+S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.csprojAssemblyReference.cache
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.RazorAssemblyInfo.cache
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.RazorAssemblyInfo.cs
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.AssemblyInfoInputs.cache
@@ -19,4 +20,3 @@ S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.Ass
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.RazorTargetAssemblyInfo.cache
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.dll
 S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.pdb
-S:\ocelot\ocelotdemo3\helloocelot1\gwocelot\obj\Debug\netcoreapp2.2\gwocelot.csprojAssemblyReference.cache

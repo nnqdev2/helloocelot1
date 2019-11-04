@@ -22,6 +22,7 @@ S:\ocelot\ocelotdemo3\helloocelot1\msa\bin\Debug\netcoreapp3.0\Serilog.Settings.
 S:\ocelot\ocelotdemo3\helloocelot1\msa\bin\Debug\netcoreapp3.0\Serilog.Sinks.Console.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msa\bin\Debug\netcoreapp3.0\Serilog.Sinks.Debug.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msa\bin\Debug\netcoreapp3.0\Serilog.Sinks.File.dll
+S:\ocelot\ocelotdemo3\helloocelot1\msa\obj\Debug\netcoreapp3.0\msa.csprojAssemblyReference.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msa\obj\Debug\netcoreapp3.0\staticwebassets\msa.StaticWebAssets.Manifest.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msa\obj\Debug\netcoreapp3.0\staticwebassets\msa.StaticWebAssets.xml
 S:\ocelot\ocelotdemo3\helloocelot1\msa\obj\Debug\netcoreapp3.0\msa.MvcApplicationPartsAssemblyInfo.cache

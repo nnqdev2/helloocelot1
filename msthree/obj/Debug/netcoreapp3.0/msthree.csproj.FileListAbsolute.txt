@@ -7,7 +7,6 @@ S:\ocelot\ocelotdemo3\helloocelot1\msthree\bin\Debug\netcoreapp3.0\msthree.runti
 S:\ocelot\ocelotdemo3\helloocelot1\msthree\bin\Debug\netcoreapp3.0\msthree.runtimeconfig.dev.json
 S:\ocelot\ocelotdemo3\helloocelot1\msthree\bin\Debug\netcoreapp3.0\msthree.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msthree\bin\Debug\netcoreapp3.0\msthree.pdb
-S:\ocelot\ocelotdemo3\helloocelot1\msthree\obj\Debug\netcoreapp3.0\msthree.csprojAssemblyReference.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msthree\obj\Debug\netcoreapp3.0\staticwebassets\msthree.StaticWebAssets.Manifest.cache
 S:\ocelot\ocelotdemo3\helloocelot1\msthree\obj\Debug\netcoreapp3.0\staticwebassets\msthree.StaticWebAssets.xml
 S:\ocelot\ocelotdemo3\helloocelot1\msthree\obj\Debug\netcoreapp3.0\msthree.MvcApplicationPartsAssemblyInfo.cache
