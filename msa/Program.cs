@@ -29,18 +29,6 @@ namespace msa
                 .WriteTo.File(fileName, rollingInterval: RollingInterval.Day, retainedFileCountLimit: 3
                         , outputTemplate: "{Timestamp:o} [{Level:u3}] ({Environment}/{ApplicationName}/{MachineName}/{EnvironmentUserName}) ({SourceContext} {MemberName}) {Message:lj}{NewLine}{Exception}")
                 ;
-            //.CreateLogger();
-
-            //Log.Logger = new LoggerConfiguration()
-            //    .Enrich.FromLogContext()
-            //    .Enrich.WithProperty("ApplicationName", typeof(Program).Assembly.GetName().Name)
-            //    .Enrich.WithProperty("Environment", Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"))
-            //    .Enrich.WithEnvironmentUserName()
-            //    .Enrich.WithMachineName()
-            //    //.WriteTo.File("s:/logs/msa/msa.inline.log", rollingInterval: RollingInterval.Day, retainedFileCountLimit:3)
-            //    .WriteTo.File(fileName, rollingInterval: RollingInterval.Day, retainedFileCountLimit: 3
-            //            , outputTemplate: "{Timestamp:o} [{Level:u3}] ({Environment}/{ApplicationName}/{MachineName}/{EnvironmentUserName}) ({SourceContext} {MemberName}) {Message:lj}{NewLine}{Exception}")
-            //    .CreateLogger();
 #if DEBUG
             loggerConfiguration.Enrich.WithProperty("DebuggerAttached", Debugger.IsAttached);
 #endif
