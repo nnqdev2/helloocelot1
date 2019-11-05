@@ -20,9 +20,11 @@ namespace msd.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<Course>().ToTable("Course");
-            modelBuilder.Entity<Enrollment>().ToTable("Enrollment");
-            modelBuilder.Entity<Student>().ToTable("Student");
+            modelBuilder.Entity<Course>().ToTable("Course", schema: "dbo");
+            modelBuilder.Entity<Enrollment>().ToTable("Enrollment", schema: "dbo");
+            modelBuilder.Entity<Student>().ToTable("Student", schema: "dbo");
+
+            modelBuilder.Entity<Student>().Property(ee => ee.FirstMidName).HasColumnName("FirstMidName");
         }
     }
 }
