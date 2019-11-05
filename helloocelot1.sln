@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "msc", "msc\msc.csproj", "{7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "msb", "msb\msb.csproj", "{00CFA9CB-B796-455B-9FD9-7A76139E9244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiClientHelper", "WebApiClientHelper\WebApiClientHelper.csproj", "{BB3EC8AB-00AC-4E51-AFF3-8748EAB97711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiClientHelper", "WebApiClientHelper\WebApiClientHelper.csproj", "{BB3EC8AB-00AC-4E51-AFF3-8748EAB97711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "msd", "msd\msd.csproj", "{9BEFB745-D7E3-4134-89CB-6D4CCD78BE20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{BB3EC8AB-00AC-4E51-AFF3-8748EAB97711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3EC8AB-00AC-4E51-AFF3-8748EAB97711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3EC8AB-00AC-4E51-AFF3-8748EAB97711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BEFB745-D7E3-4134-89CB-6D4CCD78BE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BEFB745-D7E3-4134-89CB-6D4CCD78BE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BEFB745-D7E3-4134-89CB-6D4CCD78BE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BEFB745-D7E3-4134-89CB-6D4CCD78BE20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

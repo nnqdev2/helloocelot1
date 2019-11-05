@@ -31,3 +31,4 @@ S:\ocelot\ocelotdemo3\helloocelot1\msc\obj\Debug\netcoreapp3.0\msc.RazorTargetAs
 S:\ocelot\ocelotdemo3\helloocelot1\msc\obj\Debug\netcoreapp3.0\msc.csproj.CopyComplete
 S:\ocelot\ocelotdemo3\helloocelot1\msc\obj\Debug\netcoreapp3.0\msc.dll
 S:\ocelot\ocelotdemo3\helloocelot1\msc\obj\Debug\netcoreapp3.0\msc.pdb
+S:\ocelot\ocelotdemo3\helloocelot1\msc\obj\Debug\netcoreapp3.0\msc.csprojAssemblyReference.cache
